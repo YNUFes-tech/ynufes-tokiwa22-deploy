@@ -1,0 +1,6 @@
+[submodule "22tokiwa-countdown"]
+	path = 22tokiwa-countdown
+	url = https://github.com/YNUFes-tech/22tokiwa-countdown
+[submodule "ynufes-tokiwa22-preview"]
+	path = ynufes-tokiwa22-preview
+	url = https://github.com/YNUFes-tech/ynufes-tokiwa22-preview
