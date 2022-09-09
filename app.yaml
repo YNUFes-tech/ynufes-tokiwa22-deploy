@@ -1,0 +1,15 @@
+runtime: nodejs16
+env: standard
+handlers:
+  - url: /preview(\/event-detail|\/event-list|\/|)
+    static_files: ynufes-tokiwa22-preview/dist/index.html
+    upload: ynufes-tokiwa22-preview/dist/index.html
+  - url: /preview/(.*)
+    static_files: ynufes-tokiwa22-preview/dist/\1
+    upload: ynufes-tokiwa22-preview/dist/(.*)
+  - url: /
+    static_files: 22tokiwa-countdown/dist/index.html
+    upload: 22tokiwa-countdown/dist/index.html
+  - url: /(.*)
+    static_files: 22tokiwa-countdown/dist/\1
+    upload: 22tokiwa-countdown/dist/(.*)
